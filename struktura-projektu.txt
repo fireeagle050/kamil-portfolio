@@ -1,0 +1,26 @@
+moje-portfolio/
+├── css/
+│   ├── style.css           # Główne style CSS projektu
+│   ├── blog.css
+│   └── materialy.css
+├── js/
+│   ├── main.js             # Główne skrypty JavaScript
+│   ├── blog.js
+│   └── matrix.js
+├── img/
+│   └── logo.png            # Folder na obrazy (np. logo.png, miniatury projektów)
+├── assets/
+│   └── docs/
+│       └── Curriculum Vitae.pdf # Pliki do pobrania, np. CV
+├── projekty/
+│   ├── projekt-design-1/
+│   │   └── index.html      # Strona szczegółów projektu 1
+│   ├── projekt-web-app/
+│   │   └── index.html      # Strona szczegółów projektu 2
+│   └── projekt-ai-analiza-danych/
+│       └── index.html      # Strona szczegółów projektu 3
+├── index.html              # Główna strona portfolio
+├── blog.html               # Strona bloga
+├── materialy.html          # Strona z materiałami
+├── kontakt.html            # Strona kontaktowa
+└── struktura-projektu.txt  # Ten plik - opis struktury
