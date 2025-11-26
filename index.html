@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kamil - Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Biblioteka do animacji przy przewijaniu (AOS) -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Ikony (Font Awesome) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+    <!-- Dynamiczne tło będzie tutaj -->
+    <div id="particles-js"></div>
+
+    <header>
+        <nav>
+            <a href="#hero" class="nav-logo"><img src="img/logo.png" alt="Logo" style="height: 80px;"></a>
+            <ul>
+                <li><a href="#o-mnie">O mnie</a></li>
+                <li><a href="#projekty">Projekty</a></li>
+                <li><a href="#umiejetnosci">Umiejętności</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="materialy.html">Materiały</a></li>
+                <li><a href="kontakt.html" class="nav-contact-btn">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- SEKCJA HERO - PIERWSZE WRAŻENIE -->
+        <section id="hero">
+            <div class="hero-content">
+                <h1>Cześć, jestem Kamil</h1>
+                <p>Jestem <span id="typed-text"></span></p>
+                <a href="#projekty" class="btn">Zobacz moje projekty</a>
+            </div>
+        </section>
+
+        <!-- SEKCJA O MNIE -->
+        <section id="o-mnie" class="container">
+            <h2 data-aos="fade-up">O mnie</h2>
+            <p data-aos="fade-up" data-aos-delay="100">
+                Tutaj umieść krótki opis swojej pasji do technologii, designu i AI. Opowiedz, co Cię napędza i jakie problemy lubisz rozwiązywać. Pokaż swoją osobowość i entuzjazm.
+            </p>
+            <a href="assets/docs/Curriculum Vitae.pdf" class="btn" data-aos="fade-up" data-aos-delay="200" download>Pobierz CV</a>
+        </section>
+
+        <!-- SEKCJA PROJEKTY -->
+        <section id="projekty" class="container">
+            <h2 data-aos="fade-up">Wybrane Projekty</h2>
+            <div class="projekty-grid">
+                <!-- Projekt 1 -->
+                <div class="projekt-card" data-aos="fade-up" data-aos-delay="100">
+                    <img src="https://via.placeholder.com/400x250/333/808080?text=Projekt+Design" alt="Miniatura projektu 1">
+                    <h3>Projekt UI/UX dla aplikacji mobilnej</h3>
+                    <p>Krótki opis projektu, użytych narzędzi (np. Figma) i celów.</p>
+                    <a href="projekty/projekt-design-1/index.html" class="btn-secondary">Dowiedz się więcej</a>
+                </div>
+                <!-- Projekt 2 -->
+                <div class="projekt-card" data-aos="fade-up" data-aos-delay="200">
+                    <img src="https://via.placeholder.com/400x250/333/808080?text=Projekt+Web+App" alt="Miniatura projektu 2">
+                    <h3>Aplikacja webowa do zarządzania zadaniami</h3>
+                    <p>Opis technologii (np. React, Node.js) i funkcjonalności aplikacji.</p>
+                    <a href="projekty/projekt-web-app/index.html" class="btn-secondary">Dowiedz się więcej</a>
+                </div>
+                <!-- Projekt 3 -->
+                <div class="projekt-card" data-aos="fade-up" data-aos-delay="300">
+                    <img src="https://via.placeholder.com/400x250/333/808080?text=Projekt+AI" alt="Miniatura projektu 3">
+                    <h3>Model AI do rozpoznawania obrazów</h3>
+                    <p>Opis modelu (np. CNN), zbioru danych i wyników (np. TensorFlow, PyTorch).</p>
+                    <a href="projekty/projekt-ai-analiza-danych/index.html" class="btn-secondary">Dowiedz się więcej</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- SEKCJA UMIEJĘTNOŚCI -->
+        <section id="umiejetnosci" class="container">
+            <h2 data-aos="fade-up">Technologie i Umiejętności</h2>
+            <div class="skills-grid" data-aos="fade-up" data-aos-delay="100">
+                <div class="skill-item"><i class="fa-brands fa-html5"></i> HTML5</div>
+                <div class="skill-item"><i class="fa-brands fa-css3-alt"></i> CSS3</div>
+                <div class="skill-item"><i class="fa-brands fa-js-square"></i> JavaScript</div>
+                <div class="skill-item"><i class="fa-brands fa-react"></i> React</div>
+                <div class="skill-item"><i class="fa-brands fa-python"></i> Python</div>
+                <div class="skill-item"><i class="fa-brands fa-figma"></i> Figma</div>
+                <div class="skill-item"><i class="fa-solid fa-brain"></i> TensorFlow</div>
+                <div class="skill-item"><i class="fa-solid fa-database"></i> SQL</div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Kamil [Nazwisko]. Wszelkie prawa zastrzeżone.</p>
+    </footer>
+
+    <!-- Biblioteka do efektu cząsteczek (particles.js) -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <!-- Biblioteka do efektu pisania (Typed.js) -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <!-- Biblioteka do animacji przy przewijaniu (AOS) -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- Główny skrypt JS -->
+    <script src="js/main.js"></script>
+</body>
+</html>

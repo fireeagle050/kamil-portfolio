@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Materiały - Kamil Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/materialy.css">
+    <!-- Ikony (Font Awesome) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+    <!-- Tło z efektem Matrixa -->
+    <canvas id="matrix-canvas"></canvas>
+
+    <header>
+        <nav>
+            <a href="index.html#hero" class="nav-logo"><img src="img/logo.png" alt="Logo" style="height: 80px;"></a>
+            <ul>
+                <li><a href="index.html#o-mnie">O mnie</a></li>
+                <li><a href="index.html#projekty">Projekty</a></li>
+                <li><a href="index.html#umiejetnosci">Umiejętności</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="materialy.html">Materiały</a></li>
+                <li><a href="kontakt.html" class="nav-contact-btn">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="materialy-container">
+        <div class="content-wrapper">
+            <h1>Zasoby i Materiały</h1>
+            <p class="subtitle">Repozytorium wiedzy, narzędzi i inspiracji.</p>
+
+            <div class="materialy-grid">
+                <!-- Karta materiału 1 -->
+                <div class="material-card">
+                    <i class="fas fa-book-open card-icon"></i>
+                    <h3>Przewodnik po AI</h3>
+                    <p>Kompleksowy przewodnik wprowadzający w świat sztucznej inteligencji i uczenia maszynowego.</p>
+                    <a href="#" class="btn-matrix" download>Pobierz <i class="fas fa-download"></i></a>
+                </div>
+
+                <!-- Karta materiału 2 -->
+                <div class="material-card">
+                    <i class="fas fa-code card-icon"></i>
+                    <h3>Skrypty w Pythonie</h3>
+                    <p>Zbiór użytecznych skryptów w Pythonie do automatyzacji codziennych zadań.</p>
+                    <a href="#" class="btn-matrix" download>Pobierz <i class="fas fa-download"></i></a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Skrypt do efektu Matrixa -->
+    <script src="js/matrix.js"></script>
+</body>
+</html>
